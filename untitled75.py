@@ -94,5 +94,4 @@ if st.button("🔍 Predict Churn"):
     else:
         st.success("✅ This customer is likely to **Stay (No)**")
 
-!pip install streamlit
 

@@ -14,10 +14,10 @@ import pickle
 # ========================
 # Load saved model & transformer
 # ========================
-with open("model.pkl", "rb") as f:
+with open("churn_model.pkl", "rb") as f:
     model = pickle.load(f)
 
-with open("transform.pkl", "rb") as f:
+with open("churn_transform.pkl", "rb") as f:
     transform = pickle.load(f)
 
 # ========================
